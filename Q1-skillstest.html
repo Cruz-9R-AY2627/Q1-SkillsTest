@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills test</title>
+
+    <style>
+        ::backdrop {
+            background-color:aquamarine;
+        }
+
+        apli-forms {
+            width:100px;
+        }
+        fieldset {
+            width:300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="apli-form" name="apli-forms">
+        <form>
+            <fieldset>
+                <legend>Please fill up this form to apply to our school's robotics club</legend>
+                <label for='fullname'>Full name:</label>
+                <br>
+                <input type="text" name="fullname">
+            <br><br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" name="email">
+            <br><br>
+                <label for="gradelvl">Grade Level:</label>
+                <br>
+                <select name="grade">
+                    <option value="7">Grade 7</option>
+                    <option value="8">Grade 8</option>
+                    <option value="9">Grade 9</option>
+                    <option value="10">Grade 10</option>
+                </select>
+            <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender">
+                <label>Male</label>
+
+                <input type="radio" name="gender">
+                <label>Female</label>
+            <br><br>
+                <label for="skills">What are your skills?</label>
+                <br>
+                <input type="checkbox" name="skills">
+                <label>Coding</label>
+
+                <input type="checkbox" name="skills">
+                <label>Design</label>
+
+                <input type="checkbox" name="skills">
+                <label>Electrontics</label>
+            <br><br>
+            </fieldset>
+        </form>
+    </div>
+</body>
